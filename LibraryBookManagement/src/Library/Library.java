@@ -7,7 +7,7 @@ public class Library {
 
     public void addBook(Book b) {
         books.add(b);
-        System.out.println("✅ Book added!");
+        System.out.println(" Book added!");
     }
 
     public void viewBooks() {
@@ -24,12 +24,12 @@ public class Library {
         boolean found = false;
         for (Book b : books) {
             if (b.getTitle().equalsIgnoreCase(title)) {
-                System.out.println("🔍 Found: " + b);
+                System.out.println(" Found: " + b);
                 found = true;
                 break;
             }
         }
-        if (!found) System.out.println("❌ Book not found.");
+        if (!found) System.out.println(" Book not found.");
     }
 
     public void deleteBook(String title) {
