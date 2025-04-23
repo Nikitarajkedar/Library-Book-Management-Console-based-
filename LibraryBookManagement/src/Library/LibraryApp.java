@@ -7,7 +7,7 @@ public class LibraryApp {
         Library lib = new Library();
 
         while (true) {
-            System.out.println("\n📚 Library Menu:");
+            System.out.println("\n Library Menu:");
             System.out.println("1. Add Book\n2. View Books\n3. Search Book\n4. Delete Book\n5. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
@@ -39,7 +39,7 @@ public class LibraryApp {
                     break;
 
                 case 5:
-                    System.out.println("👋 Exiting...");
+                    System.out.println(" Exiting...");
                     return;
 
                 default:
